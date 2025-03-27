@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-image: url(./assets/images/image-web-3-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    background-position: 16px 105px; 
+}
+
+
+header img{
+   position: relative;
+   top: 30px;
+   left: 17px;
+}
+
+
+/* displays the meun icon */
+.menu-button{
+    display: block;
+}
+
+
+/* nav{
+    background-color: hsl(36, 100%, 99%);
+} */
+
+nav ul{
+    position: relative;
+    top: -30px;
+    left: -30px;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.icon-menu-close{
+    margin-left: 190px;
+}
+
+nav li{
+    height: 60px;
+}
+
+a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: hsl(240, 100%, 5%)
+}
+
+
+nav a:hover{
+color: hsl(5, 85%, 63%)
+}
+
+
+.sideBar{
+    position: fixed;
+    top: 0;
+    left: 180px;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: hsl(36, 100%, 99%);
+    backdrop-filter: blur(80px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sideBar li{
+    width: 100%;
+}
+
+
+.sideBar a{
+    width: 100%;
+}
+
+
+.hideOnMobile{
+    display: none;
+}
+
+section:nth-child(2){
+    position: relative;
+    top: 370px;
+}
+
+section:nth-child(2) h1{
+    position: relative;
+    left: 17px;
+    color: hsl(240, 100%, 5%);
+    inline-size: 200px;
+    font-size: 25px;
+}
+
+section:nth-child(2) p{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    color: hsl(236, 13%, 42%);
+    inline-size: 330px;
+    line-height: 1.4;
+}
+
+section:nth-child(2) button{
+    position: relative;
+    top: 35px;
+    left: 17px;
+    height: 37px;
+    width: 160px;
+    border: 1px solid hsl(5, 85%, 63%);
+    background-color: hsl(5, 85%, 63%);
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+section:nth-child(2) button:hover{
+    border: 1px solid  hsl(240, 100%, 5%);
+    background-color:  hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    cursor: pointer;
+}
+
+section:nth-child(3){
+    position: relative;
+    top: 460px;
+    left: 17px;
+    height: 435px;
+    width: 400px;
+    border: 1px solid  hsl(240, 100%, 5%);
+    background-color:  hsl(240, 100%, 5%);
+}
+
+section:nth-child(3) h2{
+    position: relative;
+    top: 15px;
+    left: 17px;
+    font-weight: 800;
+    color: hsl(35, 77%, 62%);
+}
+
+section:nth-child(3) h4{
+    color: hsl(36, 100%, 99%);
+}
+
+.Hydrogen{
+    position: relative;
+    top: 45px;
+    left: 17px;
+}
+.Will{
+    position: relative;
+    top: 55px;
+    left: 17px;
+    color:  hsl(36, 100%, 99%);
+    inline-size: 300px;
+    line-height: 1.5;
+}
+
+.hr{
+    position: relative;
+    top: 80px;
+    left: 17px;
+    width: 360px;
+}
+
+.Downsides{
+    position: relative;
+    top: 105px;
+    left: 17px;
+}
+
+.what{
+    position: relative;
+    top: 116px;
+    left: 17px;
+    color:  hsl(36, 100%, 99%);
+    inline-size: 310px;
+    line-height: 1.5;
+}
+
+.hrr{
+    position: relative;
+    top: 150px;
+    left: 17px;
+    width: 360px;
+}
+
+.Drying{
+    position: relative;
+    top: 165px;
+    left: 17px;
+}
+
+.Private{
+    position: relative;
+    top: 175px;
+    left: 17px;
+    color: hsl(36, 100%, 99%);
+    inline-size: 320px;
+    line-height: 1.5;
+}
+
+section:nth-child(4){
+    position: relative;
+    top: 550px;
+    left: 17px;
+    height: 530px;
+    width: 400px;
+    display: block;
+     /* border: 1px solid black; */
+}
+
+.first-parent{
+    display: flex;
+}
+
+.Retro{
+    margin-bottom: 30px;
+    height: 150px;
+    width: 130px;
+}
+
+.Reviving{
+    position: relative;
+    left: 20px;
+}
+
+.Reviving h2{
+    color: hsl(5, 85%, 63%) 
+}
+
+.Reviving h4{
+    position: relative;
+    top: 15px;
+    color: hsl(240, 100%, 5%)
+}
+
+.Reviving p{
+    position: relative;
+    top: 35px;
+    inline-size: 210px;
+    line-height: 1.5;
+    color:  hsl(236, 13%, 42%)
+}
+
+.second-parent{
+    display: flex;
+}
+
+.Laptops{
+    margin-bottom: 30px;
+    margin-left: 1px;
+    height: 150px;
+    width: 130px;
+}
+
+.Top{
+    position: relative;
+    left: 20px;
+}
+
+.Top h2{
+    color: hsl(5, 85%, 63%)
+}
+
+.Top h4{
+    position: relative;
+    top: 15px;
+    color: hsl(240, 100%, 5%);
+}
+
+.Top p{
+    position: relative;
+    top: 35px;
+    inline-size: 210px;
+    line-height: 1.5;
+    color:  hsl(236, 13%, 42%)
+}
+
+.third-parent{
+    display: flex;
+}
+
+.Gaming{
+    height: 150px;
+    width: 130px; 
+    margin-left: 1px;  
+}
+
+.Growth{
+    position: relative;
+    left: 20px;
+}
+
+.Growth h2{
+    color: hsl(5, 85%, 63%)
+}
+
+.Growth h4{
+    position: relative;
+    top: 15px;
+    color: hsl(240, 100%, 5%)
+}
+
+.Growth p{
+    position: relative;
+    top: 35px;
+    inline-size: 210px;
+    line-height: 1.5;
+    color:  hsl(236, 13%, 42%)
+}
+
+footer{
+position: relative;
+top: 580px;
+}
